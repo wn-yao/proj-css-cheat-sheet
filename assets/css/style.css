@@ -1,3 +1,5 @@
+/* Universal selector */
+
 * {
     font-family: serif;
     background-color: grey;
@@ -9,12 +11,16 @@
     color: darkmagenta;
 }
 
+/* class attributes for cheat sheet styling*/
+
 .cheat-sheet {
     display:flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/* class attribute for each individual cheat sheet card */
 
 .card {
     border-style: dashed;
@@ -28,7 +34,7 @@
     transition: all 2s ease-out 1s;
 }
 
-
+/* pre element styling */
 pre {
     display: block;
     background-image: linear-gradient(
@@ -50,6 +56,7 @@ h2 {
     max-height: 2rem;
 }
 
+/* layout persepective for different screen size, 992px for desktop, 768px for tablets, under 768px for mobile device */
 @media screen and (max-width: 992px) {
     header {
       flex-direction: column;
